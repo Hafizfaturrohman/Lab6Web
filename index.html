@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum DOM dan Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1 id="judul">Latihan DOM</h1>
+
+    <p id="pesan">Belum ada tindakan.</p>
+
+    <button id="tombolAksi" type="button">Klik Saya</button>
+
+    <hr>
+
+    <h2>Latihan Penghitung Karakter</h2>
+    
+    <label for="inputNama">Masukkan nama atau teks:</label>
+    <br><br>
+    
+    <input type="text" id="inputNama" placeholder="Ketik sesuatu di sini">
+    
+    <p id="hitungKarakter">Jumlah karakter: 0</p>
+    
+    <hr>
+    
+    <h2>Latihan Validasi Form</h2>
+    
+    <form id="formValidasi">
+        <label for="nama">Nama:</label>
+        <br><br>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <br><br>
+        <input type="email" id="email" placeholder="Masukkan email">
+        <br><br>
+
+        <label for="umur">Umur:</label>
+        <br><br>
+        <input type="number" id="umur" placeholder="Masukkan umur" min="17" max="100">
+        <br><br>
+        
+        <button type="submit">Periksa Data</button>
+    </form>
+    
+    <p id="hasilValidasi"></p>
+    
+    <hr>
+    
+    <h2>Latihan To-Do List</h2>
+    
+    <form id="formTodo">
+        <input
+            type="text"
+            id="inputTodo"
+            placeholder="Masukkan tugas baru"
+        >
+        <button type="submit">Tambah Tugas</button>
+    </form>
+    
+    <ul id="daftarTodo"></ul>
+    <p id="pesanTodo"></p>
+
+
+<hr>
+
+<h2>Pendaftaran Workshop</h2>
+
+<form id="formWorkshop">
+    <label for="namaWorkshop">Nama Lengkap:</label>
+    <br><br>
+    <input
+        type="text"
+        id="namaWorkshop"
+        placeholder="Masukkan nama lengkap"
+    >
+    <br><br>
+
+    <label for="emailWorkshop">Email:</label>
+    <br><br>
+    <input
+        type="email"
+        id="emailWorkshop"
+        placeholder="Masukkan email"
+    >
+    <br><br>
+
+    <label for="pilihanWorkshop">Pilih Workshop:</label>
+    <br><br>
+
+    <select id="pilihanWorkshop">
+        <option value="">-- Pilih Workshop --</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Artificial Intelligence">Artificial Intelligence</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Daftar Workshop</button>
+</form>
+
+<p id="hasilWorkshop"></p>
+
+</body>
+</html>

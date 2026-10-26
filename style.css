@@ -1,0 +1,99 @@
+
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Mengatur judul */
+h1 {
+    color: #2563eb;
+}
+
+/* Mengatur teks pesan */
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+/* Mengatur tombol */
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efek ketika tombol disentuh kursor */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Class untuk mengubah tampilan pesan */
+.pesan-aktif {
+    color: #16a34a;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Tampilan kotak input */
+input {
+    padding: 10px;
+    width: 250px;
+    max-width: 90%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Tampilan daftar tugas */
+#daftarTodo {
+    list-style-position: inside;
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#daftarTodo li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+/* Tombol hapus */
+#daftarTodo button {
+    background-color: #dc2626;
+    padding: 7px 12px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#daftarTodo button:hover {
+    background-color: #991b1b;
+}
+
+
+/* Tampilan pilihan workshop */
+select {
+    padding: 10px;
+    width: 275px;
+    max-width: 95%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Tampilan hasil pendaftaran */
+#hasilWorkshop {
+    font-weight: bold;
+    margin-top: 20px;
+}
